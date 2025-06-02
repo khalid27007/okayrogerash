@@ -6,6 +6,13 @@
   <title>Roger Ash - Articles</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    a:visited {
+      border: 1px solid #3b82f6; /* Tailwind blue-500 */
+      border-radius: 4px;
+      padding: 2px 4px;
+    }
+  </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
   <!-- Header -->
@@ -17,8 +24,8 @@
         <a href="#" class="text-gray-700 hover:text-blue-600">Politics</a>
         <a href="#" class="text-gray-700 hover:text-blue-600">Geography</a>
         <a href="#" class="text-gray-700 hover:text-blue-600">Language</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600">About</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+        <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
+        <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
       </nav>
     </div>
   </header>
@@ -27,7 +34,17 @@
   <section class="bg-blue-600 text-white py-16">
     <div class="max-w-5xl mx-auto px-4">
       <h2 class="text-4xl font-bold mb-4">Breaking Perspectives on Politics, Geography, and Language</h2>
-      <p class="text-lg">Unbiased. Independent. Thought-provoking journalism by Roger Ash.</p>
+      <p class="text-lg">Unbiased, Independent, Thought-provoking journalism by Roger Ash.</p>
+    </div>
+  </section>
+
+  <!-- Illustration Section -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h3 class="text-2xl font-bold mb-4">Illustrations</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="https://source.unsplash.com/600x400/?news" alt="News" class="rounded shadow">
+      <img src="https://source.unsplash.com/600x400/?journalism" alt="Journalism" class="rounded shadow">
+      <img src="https://source.unsplash.com/600x400/?world" alt="World" class="rounded shadow">
     </div>
   </section>
 
@@ -53,6 +70,22 @@
     </div>
   </section>
 
+  <!-- About Section -->
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h3 class="text-2xl font-bold mb-4">About Me</h3>
+    <p class="text-gray-700 text-base leading-relaxed">I'm Roger Ash, an independent journalist passionate about exploring global issues through an unfiltered lens. With a focus on politics, geography, and language, my mission is to shed light on the overlooked and amplify voices that matter.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h3 class="text-2xl font-bold mb-4">Contact</h3>
+    <p class="text-gray-700 mb-2">For inquiries, collaborations, or tips:</p>
+    <ul class="list-disc pl-5 text-gray-700">
+      <li>Email: <a href="mailto:rogerash@example.com" class="text-blue-600 hover:underline">rogerash@example.com</a></li>
+      <li>Twitter: <a href="#" class="text-blue-600 hover:underline">@okayrogerash</a></li>
+    </ul>
+  </section>
+
   <!-- Social Icons & Footer -->
   <footer class="bg-white border-t py-6 mt-12">
     <div class="max-w-7xl mx-auto px-4 text-center">
@@ -66,4 +99,6 @@
     </div>
   </footer>
 </body>
+</html>
+
 </html>
